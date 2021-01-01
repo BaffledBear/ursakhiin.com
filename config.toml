@@ -1,3 +1,72 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://ursakhiin.com/"
+title = "Ursakhiin"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#[params.utterances]
+#repo = "" # https://utteranc.es/#heading-repository
+#issueTerm = "" # https://utteranc.es/#heading-mapping
+#label = "" # https://utteranc.es/#heading-issue-label
+#theme = "" # https://utteranc.es/#heading-theme
+
+[params]
+  author = "Peter Rauhut"
+  info = "Software Engineer (Python/Go)"
+  description = "Peter Rauhut's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  gravatar = "ursakhiin@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Creative Commons Attribution 4.0 International Public License"
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2021
+
+  enableTwemoji = true
+
+  colorsheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/baffledbear/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/baffledbear/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/ursakhiin/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
