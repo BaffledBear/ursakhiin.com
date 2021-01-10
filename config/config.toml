@@ -1,0 +1,98 @@
+baseURL = "http://ursakhiin.com/"
+title = "Ursakhiin"
+theme = "eureka"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 3
+copyright = "&copy; 2021 <a href=\"https://www.ursakhiin.com/\">P. Rauhut</a>"
+enableEmoji = true
+enableGitInfo = false
+summaryLength = 75
+
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+defaultContentLanguageInSubdir = false
+
+# Uncomment for google analytics
+# googleAnalytics = "UA-123-45"
+
+[markup]
+# Do not modify markup.highlight
+[markup.highlight]
+codeFences = false
+noClasses = false
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
+ordered = false
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[build]
+useResourceCacheWhen = "always"
+
+#[params.utterances]
+#repo = "" # https://utteranc.es/#heading-repository
+#issueTerm = "" # https://utteranc.es/#heading-mapping
+#label = "" # https://utteranc.es/#heading-issue-label
+#theme = "" # https://utteranc.es/#heading-theme
+
+[params]
+author = "Peter Rauhut"
+info = "Software Engineer (Python/Go)"
+description = "Peter Rauhut's personal website"
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpg"
+gravatar = "ursakhiin@gmail.com"
+
+favicon_32 = "/img/favicon-32x32.png"
+favicon_16 = "/img/favicon-16x16.png"
+
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+since = 2021
+
+enableTwemoji = true
+
+colorsheme = "auto"
+hidecolorschemetoggle = false
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/baffledbear/"
+[[params.social]]
+name = "Gitlab"
+icon = "fa fa-gitlab fa-2x"
+weight = 2
+url = "https://gitlab.com/baffledbear/"
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/ursakhiin/"
+[[params.social]]
+name = "Twitch"
+icon = "fa fa-twitch fa-2x"
+weight = 3
+url = "https://twitch.com/ursakhiin/"
+
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url  = "posts/"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"

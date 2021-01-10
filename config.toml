@@ -6,7 +6,7 @@ defaultcontentlanguage = "en"
 
 paginate = 20
 
-pygmentsstyle = "bw"
+pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -17,56 +17,84 @@ pygmentscodefencesguesssyntax = true
 #theme = "" # https://utteranc.es/#heading-theme
 
 [params]
-  author = "Peter Rauhut"
-  info = "Software Engineer (Python/Go)"
-  description = "Peter Rauhut's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-  gravatar = "ursakhiin@gmail.com"
+    author = "Peter Rauhut"
+    info = "Software Engineer (Python/Go)"
+    description = "Peter Rauhut's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+    gravatar = "ursakhiin@gmail.com"
 
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
 
-  footercontent = "Creative Commons Attribution 4.0 International Public License"
-  hideFooter = false
-  hideCredits = false
-  hideCopyright = false
-  since = 2021
+    dateFormat = "January 2, 2006"
 
-  enableTwemoji = true
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
+    since = 2021
 
-  colorsheme = "auto"
-  hidecolorschemetoggle = false
+    rtl = false
+
+    # Specify light/dark colorscheme
+    # Supported values:
+    # "auto" (use preference set by browser)
+    # "dark" (dark background, light foreground)
+    # "light" (light background, dark foreground) (default)
+    colorScheme = "auto"
+
+    # Hide the toggle button, along with the associated vertical divider
+    hideColorSchemeToggle = false
+
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    enableTwemoji = true
+
+    # Custom CSS
+    customCSS = []
+
+    # Custom SCSS
+    customSCSS = []
+
+    # Custom JS
+    customJS = []
+
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/baffledbear/"
+    name = "Github"
+    icon = "fa fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/baffledbear/"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/baffledbear/"
+    name = "Gitlab"
+    icon = "fa fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/baffledbear/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/ursakhiin/"
+    name = "Twitter"
+    icon = "fa fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/ursakhiin/"
+[[params.social]]
+    name = "Twitch"
+    icon = "fa fa-twitch fa-2x"
+    weight = 3
+    url = "https://twitch.com/ursakhiin/"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+    name = "Blog"
+    weight = 1
+    url  = "posts/"
 [[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+    name = "About"
+    weight = 2
+    url = "about/"
