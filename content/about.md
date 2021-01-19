@@ -17,12 +17,14 @@ He makes references to a great many geek-culture and pop-culture related things.
 
 Please join him on his adventure as he tells you about his projects and personal growth.
 
-Yes, I know how the name sounds. We can get this out of the way and answer some FAQs.
+Yes, he knows how the name sounds. 
 
-* I do not own a bear costume
-* The only growling I do is general grumbling in my sleep
-* I do snore
-* I do give great big hugs
-* I do enjoy long slumbers
-* I do love honey
-* I do enjoy raw fish
+### Quick answer to FAQs
+
+* He does not own a bear costume
+* The only growling he does is general grumbling in his sleep
+* He does snore
+* He does give great big hugs
+* He does enjoy long slumbers
+* He does love honey
+* He does enjoy raw fish
