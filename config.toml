@@ -21,7 +21,7 @@ pygmentscodefencesguesssyntax = true
     info = "Software Engineer (Python/Go)"
     description = "Peter Rauhut's personal website"
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    avatarURL = "images/petercarrie.jpg"
     gravatar = "ursakhiin@gmail.com"
 
     favicon_32 = "/img/favicon-32x32.png"
